@@ -1,8 +1,8 @@
 js.jquery_maskedinput
-*********************
+=====================
 
 Introduction
-============
+------------
 
 This library packages `jquery.maskedinput`_ for `fanstatic`_.
 
