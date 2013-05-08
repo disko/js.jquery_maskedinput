@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 import os
 
-version = '1.3'
+version = '1.3.1dev'
 
 
 def read(*rnames):
@@ -38,10 +38,10 @@ setup(
         'fanstatic',
         'js.jquery',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'jquery.maskedinput = js.jquery_maskedinput:library',
-            ],
-        },
-    )
+        ],
+    },
+)
